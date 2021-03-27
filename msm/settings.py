@@ -27,7 +27,7 @@ SECRET_KEY = "iib_7i34&6e7)ej)2r$0soz3ud^(h8gamx+alval_b8x&vxx2)"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1:8000"]
+ALLOWED_HOSTS = ["127.0.0.1:8000","msmapp.herokuapp.com"]
 
 
 # Application definition
