@@ -96,7 +96,6 @@ Pillow==7.2.0
 pipenv==2020.11.15
 playsound==1.2.2
 plotly==4.10.0
-post==0.0.0
 prometheus-client==0.8.0
 prompt-toolkit==3.0.7
 protobuf==3.12.2
