@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "iib_7i34&6e7)ej)2r$0soz3ud^(h8gamx+alval_b8x&vxx2)"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1:8000","msmapp.herokuapp.com"]
+ALLOWED_HOSTS = ["https://msmapp.herokuapp.com/"]
 
 
 # Application definition
@@ -129,9 +129,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),]
    
 MEDIA_URL = "/estoreapp/"
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-django_heroku.settings(locals())
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
